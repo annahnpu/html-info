@@ -1,0 +1,50 @@
+* {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    max-width: 100%;
+}
+
+.header {
+    height: 80px;
+    font-style: italic;
+    font-style: 30px;
+    text-transform: uppercase;
+    background-color: aqua;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin: 0;
+}
+
+.container {
+    max-height: 300px;
+    background-color: beige;
+    padding: auto auto;
+    box-sizing: border-box;
+}
+
+.first-type {
+    margin-left: 0;
+
+}
+
+.second_type {
+    list-style-type: square;
+}
+
+.third_type {
+    list-style-type: circle;
+}
+
+.fourth_type {
+    list-style-type: none;
+}
+
+.fourth_type a {
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.fourth_type a:hover {
+    text-decoration: .3s;
+    color: blue;
+}
